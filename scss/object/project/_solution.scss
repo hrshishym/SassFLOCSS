@@ -1,0 +1,24 @@
+.p-solution {
+    &__lists {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    &__list {
+        text-align: center;
+        font-weight: bold;
+        background-color: $color-gray;
+        border-radius: 4px;
+        img {
+            width: 320px;
+            height: 320px;
+            object-fit: cover;
+        }
+        p {
+            padding: 10px 16px;
+        }
+    }
+}
